@@ -1,0 +1,103 @@
+.field {
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+  transition: 0.3s all;
+}
+.field:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures it takes full height */
+}
+
+.center {
+  display: flex;
+  gap: 10px;
+}
+
+.textbox {
+  width: 400px;
+  padding: 15px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+.textbox:focus {
+  border-color: #2ecc71;
+  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.4);
+}
+
+.btn {
+  width: 125px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.output {
+  font-size: 24px;
+  border: 2px solid black;
+  padding: 35px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dropdown-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.dropdown {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Hover effect */
+.dropdown:hover {
+  border-color: #007bff;
+}
+
+/* Article content styling */
+.article-content {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 70%;
+}
+
