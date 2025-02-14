@@ -1,4 +1,4 @@
-This was a project created by Areeb Rehman and Subham Jena. The point of this project was to create a frontend and backend in order to analyze the sentiment of a specific stock based on news headlines.
+Developed by Subham Jena and Areeb Rehman, the purpose of this project was to create a frontend and backend in order to analyze the sentiment of a specific stock based on news headlines available on the web.
 
 To Run:
 1. Navigate to the same directory as the react project and run "npm start".
